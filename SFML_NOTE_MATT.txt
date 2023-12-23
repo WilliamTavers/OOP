@@ -1,0 +1,23 @@
+https://www.youtube.com/watch?v=fS7vqBmxG4w
+https://www.sfml-dev.org/tutorials/2.5/start-linux.php
+
+
+1. run xLaunch from Xming folder
+2. set port/display number to 7.0 (idk why this number)
+3. click next utill the specify parameter settings 
+4. select no access control
+5. then finish  
+6. in terminal type "export DISPLAY=IP_ADDRESS:7.0"
+
+e.g. export DISPLAY=123.456.678.910:7.0
+
+IP_ADDRESS is the IP_ADDRESS of windows server which can be found by typing "ipcongif" in command prompt 
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : SOMETHING
+   Link-local IPv6 Address . . . . . : GOMETHING
+   IPv4 Address. . . . . . . . . . . : THIS IS THE ONE
+
+GIT HUB discarding local changes:
+git reset --hard
